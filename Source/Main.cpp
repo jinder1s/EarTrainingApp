@@ -20,7 +20,7 @@ public:
 
     void initialise (const juce::String&) override
     {
-        mainWindow.reset (new MainWindow ("MidiDemo", new MainApplication, *this));
+        mainWindow.reset (new MainWindow ("MidiApplication", new MainApplication, *this));
     }
 
     void shutdown() override                         { mainWindow = nullptr; }

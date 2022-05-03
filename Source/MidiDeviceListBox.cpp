@@ -17,9 +17,9 @@ MidiDeviceListBox::MidiDeviceListBox(const String& name,
                     MainApplication& contentComponent,
                     bool isInputDeviceList): ListBox (name, this), parent (contentComponent), isInput (isInputDeviceList)
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
-
+    setOutlineThickness (1);
+    setMultipleSelectionEnabled (true);
+    setClickingTogglesRowSelection (true);
 }
 
 //==============================================================================
