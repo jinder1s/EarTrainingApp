@@ -6,8 +6,17 @@
               id="Kr4hzh" jucerFormatVersion="1">
   <MAINGROUP id="slnQlw" name="MidiDemo">
     <GROUP id="{E590CCF0-C573-3007-EB92-BC830C2FCF55}" name="Source">
+      <FILE id="InqJ0g" name="ListBoxTest.h" compile="0" resource="0" file="Source/ListBoxTest.h"/>
       <FILE id="eeML8o" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="rfMEbQ" name="MainApplication.cpp" compile="1" resource="0"
+            file="Source/MainApplication.cpp"/>
+      <FILE id="nS6i28" name="MainApplication.h" compile="0" resource="0"
+            file="Source/MainApplication.h"/>
       <FILE id="LEUvWA" name="MidiDemo.h" compile="0" resource="0" file="Source/MidiDemo.h"/>
+      <FILE id="J6NIJj" name="MidiDeviceListBox.cpp" compile="1" resource="0"
+            file="Source/MidiDeviceListBox.cpp"/>
+      <FILE id="OO85aW" name="MidiDeviceListBox.h" compile="0" resource="0"
+            file="Source/MidiDeviceListBox.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

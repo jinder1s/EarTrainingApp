@@ -34,8 +34,13 @@ add_library( ${BINARY_NAME}
 
     SHARED
 
+    "../../../Source/ListBoxTest.h"
     "../../../Source/Main.cpp"
+    "../../../Source/MainApplication.cpp"
+    "../../../Source/MainApplication.h"
     "../../../Source/MidiDemo.h"
+    "../../../Source/MidiDeviceListBox.cpp"
+    "../../../Source/MidiDeviceListBox.h"
     "../../../../../JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h"
     "../../../../../JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp"
     "../../../../../JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h"
@@ -1552,7 +1557,10 @@ add_library( ${BINARY_NAME}
     "../../../JuceLibraryCode/JuceHeader.h"
 )
 
+set_source_files_properties("../../../Source/ListBoxTest.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/MainApplication.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/MidiDemo.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/MidiDeviceListBox.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../../../JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../../../JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../../../JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h" PROPERTIES HEADER_FILE_ONLY TRUE)

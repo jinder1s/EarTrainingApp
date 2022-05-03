@@ -442,6 +442,12 @@
     <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>MidiDemo\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MainApplication.cpp">
+      <Filter>MidiDemo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MidiDeviceListBox.cpp">
+      <Filter>MidiDemo\Source</Filter>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
     </ClCompile>
@@ -2541,7 +2547,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\ListBoxTest.h">
+      <Filter>MidiDemo\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MainApplication.h">
+      <Filter>MidiDemo\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MidiDemo.h">
+      <Filter>MidiDemo\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MidiDeviceListBox.h">
       <Filter>MidiDemo\Source</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
