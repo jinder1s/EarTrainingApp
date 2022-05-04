@@ -17,6 +17,10 @@
             file="Source/MidiDeviceListBox.cpp"/>
       <FILE id="OO85aW" name="MidiDeviceListBox.h" compile="0" resource="0"
             file="Source/MidiDeviceListBox.h"/>
+      <FILE id="Cys367" name="MyAudioComponent.cpp" compile="1" resource="0"
+            file="Source/MyAudioComponent.cpp"/>
+      <FILE id="cUAg7l" name="MyAudioComponent.h" compile="0" resource="0"
+            file="Source/MyAudioComponent.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
@@ -27,13 +31,14 @@
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MidiDemo"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="MidiDemo"/>
@@ -50,6 +55,7 @@
         <MODULEPATH id="juce_graphics" path=""/>
         <MODULEPATH id="juce_gui_basics" path=""/>
         <MODULEPATH id="juce_gui_extra" path=""/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
     <VS2019 targetFolder="Builds/VisualStudio2019">
@@ -69,6 +75,7 @@
         <MODULEPATH id="juce_graphics" path=""/>
         <MODULEPATH id="juce_gui_basics" path=""/>
         <MODULEPATH id="juce_gui_extra" path=""/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </VS2019>
     <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
@@ -88,6 +95,7 @@
         <MODULEPATH id="juce_graphics" path=""/>
         <MODULEPATH id="juce_gui_basics" path=""/>
         <MODULEPATH id="juce_gui_extra" path=""/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
     <ANDROIDSTUDIO targetFolder="Builds/Android" androidExtraAssetsFolder="/Users/manjindersingh/personal/dev/JUCE/examples/Assets">
@@ -107,6 +115,7 @@
         <MODULEPATH id="juce_graphics" path=""/>
         <MODULEPATH id="juce_gui_basics" path=""/>
         <MODULEPATH id="juce_gui_extra" path=""/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </ANDROIDSTUDIO>
     <XCODE_IPHONE targetFolder="Builds/iOS" customXcodeResourceFolders="/Users/manjindersingh/personal/dev/JUCE/examples/Assets">
@@ -126,6 +135,7 @@
         <MODULEPATH id="juce_graphics" path=""/>
         <MODULEPATH id="juce_gui_basics" path=""/>
         <MODULEPATH id="juce_gui_extra" path=""/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_IPHONE>
   </EXPORTFORMATS>
