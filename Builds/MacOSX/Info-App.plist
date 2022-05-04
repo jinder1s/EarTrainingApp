@@ -10,11 +10,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.JUCE.MidiDemo</string>
+    <string>com.JUCE.EarTrainingApp</string>
     <key>CFBundleName</key>
-    <string>MidiDemo</string>
+    <string>EarTrainingApp</string>
     <key>CFBundleDisplayName</key>
-    <string>MidiDemo</string>
+    <string>EarTrainingApp</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleSignature</key>

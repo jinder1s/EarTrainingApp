@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT name="MidiDemo" companyName="JUCE" version="1.0.0" userNotes="Handles incoming and outcoming midi messages."
+<JUCERPROJECT name="EarTrainingApp" companyName="JUCE" version="1.0.0" userNotes="Handles incoming and outcoming midi messages."
               companyWebsite="http://juce.com" displaySplashScreen="1" defines="PIP_JUCE_EXAMPLES_DIRECTORY=L1VzZXJzL21hbmppbmRlcnNpbmdoL3BlcnNvbmFsL2Rldi9KVUNFL2V4YW1wbGVz"
               projectType="guiapp" useAppConfig="0" addUsingNamespaceToJuceHeader="1"
               id="Kr4hzh" jucerFormatVersion="1">
-  <MAINGROUP id="slnQlw" name="MidiDemo">
+  <MAINGROUP id="slnQlw" name="EarTrainingApp">
     <GROUP id="{E590CCF0-C573-3007-EB92-BC830C2FCF55}" name="Source">
       <FILE id="InqJ0g" name="ListBoxTest.h" compile="0" resource="0" file="Source/ListBoxTest.h"/>
       <FILE id="eeML8o" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>

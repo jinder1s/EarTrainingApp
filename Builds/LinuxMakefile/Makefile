@@ -92,7 +92,7 @@ all : $(JUCE_OUTDIR)/$(JUCE_TARGET_APP)
 $(JUCE_OUTDIR)/$(JUCE_TARGET_APP) : $(OBJECTS_APP) $(RESOURCES)
 	@command -v pkg-config >/dev/null 2>&1 || { echo >&2 "pkg-config not installed. Please, install it."; exit 1; }
 	@pkg-config --print-errors alsa freetype2 libcurl
-	@echo Linking "MidiDemo - App"
+	@echo Linking "EarTrainingApp - App"
 	-$(V_AT)mkdir -p $(JUCE_BINDIR)
 	-$(V_AT)mkdir -p $(JUCE_LIBDIR)
 	-$(V_AT)mkdir -p $(JUCE_OUTDIR)
@@ -179,11 +179,11 @@ $(JUCE_OBJDIR)/include_juce_gui_extra_6dee1c1a.o: ../../JuceLibraryCode/include_
 	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
 
 clean:
-	@echo Cleaning MidiDemo
+	@echo Cleaning EarTrainingApp
 	$(V_AT)$(CLEANCMD)
 
 strip:
-	@echo Stripping MidiDemo
+	@echo Stripping EarTrainingApp
 	-$(V_AT)$(STRIP) --strip-unneeded $(JUCE_OUTDIR)/$(TARGET)
 
 -include $(OBJECTS_APP:%.o=%.d)
