@@ -466,7 +466,7 @@
     <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>EarTrainingApp\Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MainApplication.cpp">
+    <ClCompile Include="..\..\Source\MainComponent.cpp">
       <Filter>EarTrainingApp\Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MidiDeviceListBox.cpp">
@@ -2691,7 +2691,7 @@
     <ClInclude Include="..\..\Source\ListBoxTest.h">
       <Filter>EarTrainingApp\Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\MainApplication.h">
+    <ClInclude Include="..\..\Source\MainComponent.h">
       <Filter>EarTrainingApp\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MidiDemo.h">

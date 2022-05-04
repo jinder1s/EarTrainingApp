@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Main.cpp"/>
-    <ClCompile Include="..\..\Source\MainApplication.cpp"/>
+    <ClCompile Include="..\..\Source\MainComponent.cpp"/>
     <ClCompile Include="..\..\Source\MidiDeviceListBox.cpp"/>
     <ClCompile Include="..\..\Source\MyAudioComponent.cpp"/>
     <ClCompile Include="C:\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
@@ -2209,7 +2209,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ListBoxTest.h"/>
-    <ClInclude Include="..\..\Source\MainApplication.h"/>
+    <ClInclude Include="..\..\Source\MainComponent.h"/>
     <ClInclude Include="..\..\Source\MidiDemo.h"/>
     <ClInclude Include="..\..\Source\MidiDeviceListBox.h"/>
     <ClInclude Include="..\..\Source\MyAudioComponent.h"/>

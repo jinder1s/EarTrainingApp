@@ -36,8 +36,8 @@ add_library( ${BINARY_NAME}
 
     "../../../Source/ListBoxTest.h"
     "../../../Source/Main.cpp"
-    "../../../Source/MainApplication.cpp"
-    "../../../Source/MainApplication.h"
+    "../../../Source/MainComponent.cpp"
+    "../../../Source/MainComponent.h"
     "../../../Source/MidiDemo.h"
     "../../../Source/MidiDeviceListBox.cpp"
     "../../../Source/MidiDeviceListBox.h"
@@ -1645,7 +1645,7 @@ add_library( ${BINARY_NAME}
 )
 
 set_source_files_properties("../../../Source/ListBoxTest.h" PROPERTIES HEADER_FILE_ONLY TRUE)
-set_source_files_properties("../../../Source/MainApplication.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/MidiDemo.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/MidiDeviceListBox.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/MyAudioComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
